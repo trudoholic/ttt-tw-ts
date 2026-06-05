@@ -1,11 +1,12 @@
-import './App.css'
+import './App.css';
+import Board from './components/Board';
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="h-screen flex items-center justify-center bg-gray-100">
+      <Board />
+    </div>
   )
 }
 
